@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[41,)"
+license="All rights reserved"
+
+[[mods]]
+modId="odm_gear"
+version="${file.jarVersion}"
+displayName="ODM Gear"
+logoFile="logo.png"
+#credits=""
+authors="ukon"
+description=''' '''
+
+[[dependencies.odm_gear]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.odm_gear]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
